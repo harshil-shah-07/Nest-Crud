@@ -13,7 +13,7 @@ export class EmployeeEntity {
     lastName: string;
 
     @Column()
-    experience: string;
+    experience: number;
 
     @ManyToOne(
         () => DepartmentEntity,
